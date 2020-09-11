@@ -4,10 +4,11 @@ Curti a idéia do menu lateral nesse [layout](https://dribbble.com/shots/1414078
 ## Screenshots
 <p align="center">
     <img src="https://user-images.githubusercontent.com/16376748/92829642-d0b90e00-f3aa-11ea-99c7-635c18fd21c7.png" width="400">&nbsp;
+    <img src="https://user-images.githubusercontent.com/16376748/92976692-83e43e80-f461-11ea-9a4b-e9bc08b8285a.png" width="400">&nbsp;
 </p>
  
 ## Vídeo
-[Vídeo no YouTube](https://youtu.be/Xuyz6QuGquE)
+[Vídeo no YouTube](https://youtu.be/RyS2HlBdAjs)
 
 ## Requisitos
 - iOS 13

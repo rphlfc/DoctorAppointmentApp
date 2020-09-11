@@ -10,11 +10,12 @@ import SwiftUI
 
 struct TopAndSearchView: View {
     @State var search = ""
+    var didSelectMenu: () -> Void
     
     var body: some View {
         VStack(alignment: .leading) {
             Button(action: {
-                
+                self.didSelectMenu()
             }) {
                 VStack(alignment: .leading, spacing: 6) {
                     RoundedRectangle(cornerRadius: 3)
@@ -54,6 +55,8 @@ struct TopAndSearchView: View {
 
 struct TopAndSearchView_Previews: PreviewProvider {
     static var previews: some View {
-        TopAndSearchView()
+        TopAndSearchView {
+            
+        }
     }
 }

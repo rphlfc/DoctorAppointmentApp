@@ -17,6 +17,8 @@
 		64A935FE2509958D0082AC00 /* OurServicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A935FD2509958D0082AC00 /* OurServicesView.swift */; };
 		64A93600250995B50082AC00 /* TopAndSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A935FF250995B50082AC00 /* TopAndSearchView.swift */; };
 		64A93602250996AF0082AC00 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 64A93601250996AF0082AC00 /* README.md */; };
+		64D2298D250BA1BE00F5423B /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D2298C250BA1BE00F5423B /* MenuView.swift */; };
+		64D2298F250BAB5C00F5423B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D2298E250BAB5C00F5423B /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		64A935FD2509958D0082AC00 /* OurServicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OurServicesView.swift; path = DoctorAppointmentApp/OurServicesView.swift; sourceTree = SOURCE_ROOT; };
 		64A935FF250995B50082AC00 /* TopAndSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAndSearchView.swift; sourceTree = "<group>"; };
 		64A93601250996AF0082AC00 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		64D2298C250BA1BE00F5423B /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		64D2298E250BAB5C00F5423B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeView.swift; path = DoctorAppointmentApp/HomeView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,9 +92,11 @@
 		647338C12509866A00CD57BD /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				64D2298E250BAB5C00F5423B /* HomeView.swift */,
 				64A935FD2509958D0082AC00 /* OurServicesView.swift */,
 				64A935FF250995B50082AC00 /* TopAndSearchView.swift */,
 				64A935FB2509916E0082AC00 /* CategoriesView.swift */,
+				64D2298C250BA1BE00F5423B /* MenuView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -167,10 +173,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64D2298D250BA1BE00F5423B /* MenuView.swift in Sources */,
 				64A935FE2509958D0082AC00 /* OurServicesView.swift in Sources */,
 				64A935FC2509916E0082AC00 /* CategoriesView.swift in Sources */,
 				647338AE2509858800CD57BD /* AppDelegate.swift in Sources */,
 				647338B02509858800CD57BD /* SceneDelegate.swift in Sources */,
+				64D2298F250BAB5C00F5423B /* HomeView.swift in Sources */,
 				64A93600250995B50082AC00 /* TopAndSearchView.swift in Sources */,
 				647338B22509858800CD57BD /* ContentView.swift in Sources */,
 			);
