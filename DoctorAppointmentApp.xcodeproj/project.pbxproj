@@ -13,6 +13,10 @@
 		647338B42509858900CD57BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 647338B32509858900CD57BD /* Assets.xcassets */; };
 		647338B72509858900CD57BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 647338B62509858900CD57BD /* Preview Assets.xcassets */; };
 		647338BA2509858900CD57BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 647338B82509858900CD57BD /* LaunchScreen.storyboard */; };
+		64A935FC2509916E0082AC00 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A935FB2509916E0082AC00 /* CategoriesView.swift */; };
+		64A935FE2509958D0082AC00 /* OurServicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A935FD2509958D0082AC00 /* OurServicesView.swift */; };
+		64A93600250995B50082AC00 /* TopAndSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A935FF250995B50082AC00 /* TopAndSearchView.swift */; };
+		64A93602250996AF0082AC00 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 64A93601250996AF0082AC00 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		647338B62509858900CD57BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		647338B92509858900CD57BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		647338BB2509858900CD57BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64A935FB2509916E0082AC00 /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CategoriesView.swift; path = DoctorAppointmentApp/CategoriesView.swift; sourceTree = SOURCE_ROOT; };
+		64A935FD2509958D0082AC00 /* OurServicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OurServicesView.swift; path = DoctorAppointmentApp/OurServicesView.swift; sourceTree = SOURCE_ROOT; };
+		64A935FF250995B50082AC00 /* TopAndSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAndSearchView.swift; sourceTree = "<group>"; };
+		64A93601250996AF0082AC00 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,7 @@
 		647338A12509858800CD57BD = {
 			isa = PBXGroup;
 			children = (
+				64A93601250996AF0082AC00 /* README.md */,
 				647338AC2509858800CD57BD /* DoctorAppointmentApp */,
 				647338AB2509858800CD57BD /* Products */,
 			);
@@ -56,6 +65,7 @@
 		647338AC2509858800CD57BD /* DoctorAppointmentApp */ = {
 			isa = PBXGroup;
 			children = (
+				647338C12509866A00CD57BD /* Views */,
 				647338AD2509858800CD57BD /* AppDelegate.swift */,
 				647338AF2509858800CD57BD /* SceneDelegate.swift */,
 				647338B12509858800CD57BD /* ContentView.swift */,
@@ -73,6 +83,16 @@
 				647338B62509858900CD57BD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		647338C12509866A00CD57BD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				64A935FD2509958D0082AC00 /* OurServicesView.swift */,
+				64A935FF250995B50082AC00 /* TopAndSearchView.swift */,
+				64A935FB2509916E0082AC00 /* CategoriesView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +155,7 @@
 			files = (
 				647338BA2509858900CD57BD /* LaunchScreen.storyboard in Resources */,
 				647338B72509858900CD57BD /* Preview Assets.xcassets in Resources */,
+				64A93602250996AF0082AC00 /* README.md in Resources */,
 				647338B42509858900CD57BD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,8 +167,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64A935FE2509958D0082AC00 /* OurServicesView.swift in Sources */,
+				64A935FC2509916E0082AC00 /* CategoriesView.swift in Sources */,
 				647338AE2509858800CD57BD /* AppDelegate.swift in Sources */,
 				647338B02509858800CD57BD /* SceneDelegate.swift in Sources */,
+				64A93600250995B50082AC00 /* TopAndSearchView.swift in Sources */,
 				647338B22509858800CD57BD /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
